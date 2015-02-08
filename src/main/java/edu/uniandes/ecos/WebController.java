@@ -31,7 +31,7 @@ public class WebController  extends HttpServlet
     
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-            
+            /*
         ResultsPrinter printer = new ResultsPrinter();
         
         String list1 = "130,650,99,150,128,302,95,945,368,961";
@@ -48,7 +48,8 @@ public class WebController  extends HttpServlet
         
         result += "</HTML>";
         
-        resp.getWriter().write(result);          
+        resp.getWriter().write(result);          */
+        resp.getWriter().write("Hola");
        
     }
     
