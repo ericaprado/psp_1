@@ -17,7 +17,7 @@ public class ResultsPrinter {
         
         result += "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++";
         result += "</BR><h1>RESULTADOS TEST " + testId + "</h1></BR>";
-        result += "<TABLE><TR><TD></B>Lista 1</TD><TD></B>Lista 2</TD></TR>";
+        result += "<TABLE border='1'><TR><TD></B>Lista 1</TD><TD></B>Lista 2</TD></TR>";
         
         for (int i = 0; i < data.dataset1.size(); i++) {
             result += "<TR><TD>"+ data.dataset1.get(i) +"</TD><TD>"+ data.dataset2.get(i) +"</TD></TR>";
